@@ -1,0 +1,151 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: white;
+    display: grid;
+    width:90%;
+    margin: auto;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.cols1 {
+    background-color: white;
+}
+
+.list1 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    list-style: none;
+    padding: 0;
+    justify-content:end;
+}
+
+.list1 li{
+    padding: 20px 50px;
+}
+.list1 li a{
+    text-decoration: none;
+    color: black;
+}
+.list1 li:hover{
+    background-color:crimson;
+    border-radius: 30px;
+}
+.cols3 h2{
+    font-size: 50px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.cols3 p{
+    line-height: 2;
+
+}
+
+.cols3 button{
+    background-color:royalblue;
+    font-size: 15px;
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+}
+
+.cols4 {
+    text-align: center;
+}
+
+.middle {
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+}
+.middle1{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33.3333333% 33.333333% 33.3333333%;
+}
+.fa-camera {
+    font-size: 50px;
+}
+
+.middlediv1{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.middlediv2{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.middlediv3{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.middlediv1 h3{
+    padding-left: 20px;
+}
+.middlebtn{
+    margin: 13px 5px 13px 0px;
+    align-items: center;
+}
+.low{
+    background-color:black;
+    width:100%; 
+    color: white;
+}
+.low1{
+    display: grid;
+    grid-template-columns: 70% 30%; 
+    width: 90%;
+    margin: auto; 
+}
+.cols5 button{
+    background-color:royalblue;
+    font-size: 15px;
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+    
+}
+.list2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.list2 ul{
+    line-height: 2.4;
+}
+.cols7{
+    display: grid;
+    grid-template-columns: 50% 50%;  
+    margin-top: 20px;
+}
+.cols7btn1 button{
+    background-color:royalblue;
+    font-size: 14px;
+    color: aliceblue; 
+    border: none;
+    padding: 10px;
+}
+.cols7a{
+    display: grid;
+    grid-template-columns: 30% 70%;  
+}
+.cols8div{
+    display: grid;
+    grid-template-columns: 30% 70%;  
+}
+.cols8 button{
+    background-color:royalblue;
+    font-size: 14px;
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+    border-width: 0;
+}
+
+

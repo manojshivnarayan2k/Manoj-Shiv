@@ -1,0 +1,46 @@
+*{
+   
+}
+.about1 {
+    background-color: white;
+    display: grid;
+    width:90%;
+    margin: auto;
+    grid-template-columns: 50% 50%;
+    
+}
+.cols1 {
+    background-color: white;
+}
+
+.list1 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    list-style: none;
+    padding: 0;
+    justify-content:end;
+}
+
+.list1 li{
+    padding: 20px 50px;
+}
+.list1 li a{
+    text-decoration: none;
+    color: black;
+}
+.list1 li:hover{
+    background-color:crimson;
+    border-radius: 30px;
+}
+.cols3{
+     padding-top: 60px;
+     display: grid;
+     grid-template-columns: 80% 20%; 
+}
+.cols3div{
+    
+}
+.image1{
+    width: 100%;
+}
